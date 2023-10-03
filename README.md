@@ -14,7 +14,7 @@
 
 ## Introduction:
 
-In this project, we analyzed restaurant data from across the United States to try and draw conclusions on consumer trends, specifically their preference in cuisines. We later took this data and created machine learning models to attempt to predict consumer restaurant ratings. Bringing back the old question of, which do Americans prefer Italian or Mexican food.
+In this project, we analyzed restaurant data from across the United States to try and draw conclusions on consumer trends, specifically their preference in cuisines. We later took this data and created machine learning models to attempt to predict consumer restaurant ratings. Bringing back the old question of, whether Americans prefer Italian or Mexican food.
 
 ## Methods We Used: 
 
@@ -37,7 +37,7 @@ In this project, we analyzed restaurant data from across the United States to tr
 * Dropped columns('alias,' 'phone,' 'display_phone,' and 'distance') irrelevant to analysis
 * Creating a new column for cuisines, converting categories column from string to list of dictionaries, and applying lambda function to extract cuisine titles. 
 * Extracting latitude and longitude from the coordinates column
-* Converted the 'price' column from symbols ('$' to '$$$$') to integers (1 to 4) for price related analysis
+* Converted the 'price' column from symbols ('$' to '$$$$') to integers (1 to 4) for price-related analysis
 * columns= id, name, image_url, is_closed, url, review_count, rating, transactions, price, group_city, cuisines, latitude, longitude, state
 
 ## Data Exploration:
